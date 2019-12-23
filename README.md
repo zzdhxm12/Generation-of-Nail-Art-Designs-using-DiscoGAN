@@ -13,7 +13,7 @@ Generator와 Discriminator로 구성되며 Generator는 특정 도메인의 샘�
 * Numpy/Scipy/Pandas
 * Progressbar
 * OpenCV
-* Linux 16.04
+* Ubuntu 16.04
 * Cuda 8.0
 
 ## Data Set
