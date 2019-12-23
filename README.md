@@ -25,4 +25,5 @@ Generator와 Discriminator로 구성되며 Generator는 특정 도메인의 샘�
 ![image](https://user-images.githubusercontent.com/53864655/71340653-db244500-259a-11ea-89b1-2d7f772e3539.png)
 
 ## 시스템 구조
+![image](https://user-images.githubusercontent.com/53864655/71340915-a06edc80-259b-11ea-85b2-f72aa106ffaf.png)
 
