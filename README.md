@@ -20,4 +20,5 @@ Generator와 Discriminator로 구성되며 Generator는 특정 도메인의 샘�
 * 네일 디자인 
 ![image](https://user-images.githubusercontent.com/53864655/71340605-add79700-259a-11ea-8d6d-6c8bf3ce5973.png)
 * 액세서리
+![image](https://user-images.githubusercontent.com/53864655/71340653-db244500-259a-11ea-89b1-2d7f772e3539.png)
 
