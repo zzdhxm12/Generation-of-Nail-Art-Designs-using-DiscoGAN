@@ -12,7 +12,7 @@ Generation of Nail Art Designs using DiscoGAN
 * Ubuntu 16.04
 * Cuda 8.0
 
-## Data Set
+## Dataset
 * 네일 디자인 Data (약 1000개)
 
 ![image](https://user-images.githubusercontent.com/53864655/71340605-add79700-259a-11ea-8d6d-6c8bf3ce5973.png)
@@ -20,13 +20,13 @@ Generation of Nail Art Designs using DiscoGAN
 
 ![image](https://user-images.githubusercontent.com/53864655/71340653-db244500-259a-11ea-89b1-2d7f772e3539.png)
 
-Download Edges2Handbags dataset using
+가방 dataset 다운로드 코드
 
 ```
 $ python ./datasets/download.py edges2handbags
 ```
 
-Download Edges2Shoes dataset using
+신발 dataset 다운로드 코드
 
 ```
 $ python ./datasets/download.py edges2shoes
