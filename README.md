@@ -1,5 +1,5 @@
 # ganail
-Generation of Nail Art Designs using DiscoGAN
+Generation of Nail Art Designs using DiscoGAN(Discover Cross-Domain Relations with Generative Adversarial Networks)
 
 ![image](https://user-images.githubusercontent.com/53864655/71340062-ebd3bb80-2598-11ea-86f3-f633500d8b41.png)
 
@@ -34,7 +34,7 @@ $ python ./datasets/download.py edges2shoes
 
 
 
-## Model - DiscoGAN(Discover Cross-Domain Relations with Generative Adversarial Networks)
+## Model - DiscoGAN
 ### Introduction
 2014년에 이안 굿펠로우에 의해 발표된 GAN(Generative Adversarial Networks)는 Generator와 Discriminator로 구성되며 Generator는 특정 도메인의 샘플을 생성하고 Discriminator는 샘플이 Generator로부터 생성된 데이터인지 실제 샘플인지를 판별한다. Generator와 Discriminator는 이와 같은 과정을 통하여 학습하며 상호간에 성능을 향상시킨다. 
 
