@@ -44,12 +44,15 @@ $ python ./datasets/download.py edges2shoes
 ![image](https://user-images.githubusercontent.com/53864655/71340915-a06edc80-259b-11ea-85b2-f72aa106ffaf.png)
 
 **1. 이미지 수집&전처리**
+
 웹 크롤러를 통하여 네일아트 이미지를 수집한 뒤 이미지 전처리(세그멘테이션, edge detection 등)를 수행한다. 
 
 **2. DiscoGAN Model 학습**
+
 각 도메인 이미지들과 DiscoGAN을 바탕으로 이미지 생성 및 복원을 통한 상호 관계성 학습을 수행한다. 
 
 **3. 이미지 후처리**
+
 생성된 네일아트 이미지의 결과에 대해 필터 적용, 색감 및 모양 보정 등의 후처리 과정을 통하여 네일아트의 분위기를 강조하는 효과를 기대할 수 있다.
 
 
