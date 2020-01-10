@@ -34,13 +34,13 @@ $ python ./datasets/download.py edges2shoes
 
 
 
-## Model - DiscoGAN
-### Introduction
+## DiscoGAN
+
 2014년에 이안 굿펠로우에 의해 발표된 GAN(Generative Adversarial Networks)는 Generator와 Discriminator로 구성되며 Generator는 특정 도메인의 샘플을 생성하고 Discriminator는 샘플이 Generator로부터 생성된 데이터인지 실제 샘플인지를 판별한다. Generator와 Discriminator는 이와 같은 과정을 통하여 학습하며 상호간에 성능을 향상시킨다. 
 
 이 연구에서는 SK T-Brain에서 발표되서 인정받고 있는 Learning to Discover Cross-Domain Relations with Generative Adversarial Networks(DiscoGAN)을 사용하였다. DiscoGAN은 이전에 다른 모델들과 달리, 우리는 그 어떤 라벨도 없는 두 개의 도메인 데이터 셋을 pre-training없이 train한다. 또한, 서로 다른 두 도메인간의 이미지 스타일 전이를 위한 GAN 기반의 학습 기법으로 Training Data가 unpaired dataset이라도 학습이 가능하며 간단한 네트워크 구조를 사용한다. 
 
-### Architecture
+## Architecture
 ![image](https://user-images.githubusercontent.com/53864655/71340915-a06edc80-259b-11ea-85b2-f72aa106ffaf.png)
 
 **1. 이미지 수집&전처리**
