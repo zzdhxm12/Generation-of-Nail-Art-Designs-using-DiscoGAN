@@ -20,13 +20,13 @@ Generation of Nail Art Designs using DiscoGAN(Discover Cross-Domain Relations wi
 
 ![image](https://user-images.githubusercontent.com/53864655/71340653-db244500-259a-11ea-89b1-2d7f772e3539.png)
 
-가방 dataset 다운로드 코드
+가방 dataset 다운로드 
 
 ```
 $ python ./datasets/download.py edges2handbags
 ```
 
-신발 dataset 다운로드 코드
+신발 dataset 다운로드 
 
 ```
 $ python ./datasets/download.py edges2shoes
