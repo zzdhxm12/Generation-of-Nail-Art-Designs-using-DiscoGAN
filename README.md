@@ -1,7 +1,7 @@
-# ganail
-Generation of Nail Art Designs using DiscoGAN(Discover Cross-Domain Relations with Generative Adversarial Networks)
+# Generation-of-Nail-Art-Designs-using-DiscoGAN
 
-![image](https://user-images.githubusercontent.com/53864655/71340062-ebd3bb80-2598-11ea-86f3-f633500d8b41.png)
+사용자의 패션 아이템에 적합한 네일 디자인을 자동으로 생성 및 추천하기 위한 DiscoGAN 기반의 네일아트 디자인 시스템을 제안한다. 또한, 핸드백 및 신발으로부터 네일아트 디자인을 생성하기 위한 실험 결과로부터 제안하는 기법의 가능성을 제시한다.
+
 
 ## Prerequisites
 * Python 2.7
@@ -54,6 +54,11 @@ $ python ./datasets/download.py edges2shoes
 **3. 이미지 후처리**
 
 생성된 네일아트 이미지의 결과에 대해 필터 적용, 색감 및 모양 보정 등의 후처리 과정을 통하여 네일아트의 분위기를 강조하는 효과를 기대할 수 있다.
+
+
+## Result
+
+![image](https://user-images.githubusercontent.com/53864655/71340062-ebd3bb80-2598-11ea-86f3-f633500d8b41.png)
 
 
 
