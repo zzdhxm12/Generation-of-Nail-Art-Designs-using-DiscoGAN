@@ -20,6 +20,8 @@
 
 ![image](https://user-images.githubusercontent.com/53864655/71340653-db244500-259a-11ea-89b1-2d7f772e3539.png)
 
+## Train DiscoGAN
+
 가방 dataset 다운로드 
 
 ```
@@ -32,7 +34,17 @@ $ python ./datasets/download.py edges2handbags
 $ python ./datasets/download.py edges2shoes
 ```
 
+가방 -> 네일 모델 학습 및 수행
 
+```
+$ python ./discogan/trans.py --task_name='handbags2nail' 
+```
+
+신발 -> 네일 모델 학습 및 수행
+
+```
+$ python ./discogan/trans.py --task_name='shoes2nail' 
+```
 
 ## DiscoGAN
 
